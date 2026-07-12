@@ -24,7 +24,7 @@ Neste projeto procurei aplicar um princípio de **Clean Code** conhecido como **
 ## Tecnologias
 
 - Java
-- JDK 21 (ou a versão que você estiver utilizando)
+- JDK 21
 
 ## Autor
 
