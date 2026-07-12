@@ -20,8 +20,9 @@ public class Principal {
 		String nome;
 		
 		exibirMenu();
-
+		
 		int opcao = teclado.nextInt();
+		System.out.println("");
 
 		while (opcao != 0) {
 
@@ -29,15 +30,18 @@ public class Principal {
 				System.out.println("Digite um nome:");
 				nome = teclado.next();
 				listaNomes.add(nome);
+				System.out.println("");
 			}
 			else if (opcao == 2) {
 				System.out.println("Lista de nomes:");
 				for(int i = 0; i < listaNomes.size(); i++) {
 				    System.out.println(listaNomes.get(i));
+				    System.out.println("");
 				}
 			}
 			else {
 				System.out.println("Opção invalida. Tente novamente!");
+				System.out.println("");
 			}
 			exibirMenu();
 			
@@ -48,3 +52,4 @@ public class Principal {
 	}
 
 }
+
